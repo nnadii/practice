@@ -72,5 +72,8 @@ except ZeroDivisionError:
 
 # print(twice(add_ten, 10))
 
-new_list = [2, 4, 6, 8, 10]
-print(list(map(lambda x: x ** 2, new_list)))
+# new_list = [2, 4, 6, 8, 10]
+# print(list(map(lambda x: x ** 2, new_list)))
+
+filter_list = [1, 3, 4, 5, 67, 7, 8, 30, 41]
+print(list(filter(lambda x: x % 2 == 0, filter_list)))
