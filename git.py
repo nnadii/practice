@@ -55,9 +55,9 @@ file.close()
 list = [x ** 2 for x in range(10) if x ** 2 % 2 == 0]
 print(list)
 
-# number = [4, 5, 6]
-# new_number = "Number:{0},{1},{2}".format(number[0], number[1], number[2])
-# print(new_number)
+number = [4, 5, 6]
+new_number = "Number:{0},{1},{2}".format(number[0], number[1], number[2])
+print(new_number)
 
 # print(":".join(["apple", "mango", "banana"]))
 # print("Hello there".replace("there", "world"))
