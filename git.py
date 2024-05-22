@@ -75,5 +75,69 @@ except ZeroDivisionError:
 # new_list = [2, 4, 6, 8, 10]
 # print(list(map(lambda x: x ** 2, new_list)))
 
-filter_list = [1, 3, 4, 5, 67, 7, 8, 30, 41]
-print(list(filter(lambda x: x % 2 == 0, filter_list)))
+# filter_list = [1, 3, 4, 5, 67, 7, 8, 30, 41]
+# print(list(filter(lambda x: x % 2 == 0, filter_list)))
+
+# Generators
+# def odd_numbers(x):
+#     for counter in range(x):
+#         if counter % 2 == 1:
+#             yield counter
+
+
+# print(list(odd_numbers(20)))
+
+# def even_numbers():
+#     counter = 0
+#     while counter < 10:
+#         yield counter
+#         counter += 1
+
+
+# for x in even_numbers():
+#     print(x)
+
+# classes
+# class Student:
+#     def __init__(self, name, contact):
+#         self.name = name
+#         self.contact = contact
+
+#     def get_data(self):
+#         print("info arriving")
+#         self.name = input("Enter your name ")
+#         self.contact = input("Enter your contact ")
+
+#     def put_data(self):
+#         print("This guy, " + self.name + "has the contact:" + self.contact)
+
+
+# class First_Student(Student):
+#     def __init__(self, age):
+#         self.age = age
+
+#     def student_age(self):
+#         print(self.age)
+
+
+# school_age = First_Student(20)
+# school_age.student_age()
+# school_age.get_data()
+# school_age.put_data()
+
+# # factorial
+
+
+# def factorial(x):
+#     if (x == 1):
+#         return 1
+#     else:
+#         return x * (factorial(x - 1))
+
+
+# print(factorial(5))
+
+# set
+# set_a = {1, 2, 3, 4, 5}
+# set_b = {4, 5, 6, 7, 8}
+# print(set_a & set_b)
