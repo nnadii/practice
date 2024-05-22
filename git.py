@@ -15,12 +15,12 @@ result = square(add(2, 3))
 func = add(2, square(3))
 
 sum = result + func
-# print(sum)
+print(sum)
 
 # module
 for x in range(5):
     result = random.randint(1, 6)
-    # print(result)
+    print(result)
 
 
 try:
@@ -34,23 +34,23 @@ except ZeroDivisionError:
 
 
 # file handling
-# file = open("file.txt", "r")
-# content = file.read()
-# print(content)
+file = open("file.txt", "r")
+content = file.read()
+print(content)
 
 # write to file
-# file = open("file.txt", "w")
-# file.write("Hello chime, let's take this serious")
-# file.close()
+file = open("file.txt", "w")
+file.write("Hello chime, let's take this serious")
+file.close()
 
-# file = open("file.txt", "r")
-# content = file.read()
-# print(content)
-# file.close()
+file = open("file.txt", "r")
+content = file.read()
+print(content)
+file.close()
 
-# file = open("file.txt", "w")
-# file.write("Another line added now")
-# file.close()
+file = open("file.txt", "w")
+file.write("Another line added now")
+file.close()
 
 # list = [x ** 2 for x in range(10) if x ** 2 % 2 == 0]
 # print(list)
