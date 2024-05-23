@@ -62,12 +62,13 @@ print(new_number)
 print(":".join(["apple", "mango", "banana"]))
 print("Hello there".replace("there", "world"))
 
-# def add_ten(x):
-#     return x + 10
+
+def add_ten(x):
+    return x + 10
 
 
-# def twice(func, arg):
-#     return func(func(arg))
+def twice(func, arg):
+    return func(func(arg))
 
 
 # print(twice(add_ten, 10))
