@@ -71,7 +71,7 @@ def twice(func, arg):
     return func(func(arg))
 
 
-# print(twice(add_ten, 10))
+print(twice(add_ten, 10))
 
 # new_list = [2, 4, 6, 8, 10]
 # print(list(map(lambda x: x ** 2, new_list)))
