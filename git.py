@@ -59,8 +59,8 @@ number = [4, 5, 6]
 new_number = "Number:{0},{1},{2}".format(number[0], number[1], number[2])
 print(new_number)
 
-# print(":".join(["apple", "mango", "banana"]))
-# print("Hello there".replace("there", "world"))
+print(":".join(["apple", "mango", "banana"]))
+print("Hello there".replace("there", "world"))
 
 # def add_ten(x):
 #     return x + 10
