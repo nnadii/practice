@@ -28,9 +28,9 @@ try:
     b = 0
     print(a / b)
 except ZeroDivisionError:
-    # print("Oops, undefined")
+    print("Oops, undefined")
 
-    print("Code after handling exception")
+print("Code after handling exception")
 
 
 # file handling

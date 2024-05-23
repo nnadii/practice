@@ -1,6 +1,13 @@
 from tkinter import *
 
 root = Tk()
-first_label = Label(root, text="Hello world")
-first_label.pack()
+
+
+def do_something():
+    print("Hurray, you clicked the button")
+
+
+button1 = Button(root, text="click here", command=do_something)
+button1.pack()
+
 root.mainloop()
